@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Вкусные блюда</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Добавьте логотип или название ресторана -->
+        </div>
+
+        <a href="cart.html" class="cart-link">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 18C5.9 18 5 18.9 5 20C5 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.29 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15 18.9 15 20C15 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="#333333"/>
+            </svg>
+        </a>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1>Корзина</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Блюдо</th>
+                        <th>Цена</th>
+                        <th>Количество</th>
+                        <th>Итого</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Карбонара</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, бекон, желток куриный, сыр пармезан</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 630 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">630 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Барбекю</h3>
+                                    <p>Тесто, соус барбекю, сыр моцарелла, огерано, базилик, лук- порей, бекон, филе куриное гриль, орех мясной</p>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td> 790 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                
+                                <input type="number" value="0" min="0" class="item-quantity">
+                               
+                            </div>
+                        </td>
+                        <td class="item-total"> 790 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+		      <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Ди Маре</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, лук красный, кальмар, креветки, лосось, маслины, кунжут, лимон</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 910 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">910 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+
+
+		     <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Каприччио</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, сыр гауда, ветчина, огурцы консервированные</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 580 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">580 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+
+		      <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Гавайи</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, куриное филе, ананас, кунжут</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 700 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">700 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+
+		      <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Маргарита</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, масло оливковое</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 620 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">620 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+
+		     <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Пепперони</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, колбаски пепперони, маслины, каперсы</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 620 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">620 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+		      <tr>
+                        <td>
+                            <div class="dish-info">
+                                <div>
+                                    <h3>Портобелло</h3>
+                                    <p>Тесто, соус помадоро, сыр моцарелла, орегано, базилик, грибы, ветчина, маслины</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td> 640 руб.</td>
+                        <td>
+                            <div class="quantity-controls">
+                                <input type="number" value="0" min="0" class="item-quantity">                        
+                            </div>
+                        </td>
+                        <td class="item-total">640 руб.</td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+	    	
+
+            <div class="cart-total">
+                <p>Общая сумма: <span class="total-amount">1350 руб.</span></p>
+	                  
+            <button class="checkout">Оформить заказ</button>
+		</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Вкусные блюда. Все права защищены.</p>
+    </footer>
+
+
+
+
+
+	
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
